@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Anda dapat menyetel kotak centang 
+        atau tombol radio untuk dicentang secara default menggunakan atribut dicentang 
+    -->
+</head>
+<body>
+    <h2>Cat photo Apps</h2>
+    <main>
+        <p>Click here to view more <a href="#">cat photos</a>.</p>
+        <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        <p>Things cats love:</p>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+
+        <p>Top 3 things cats hate:</p>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+
+        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+            <label for="outdoor">
+                <input type="checkbox" name="indoor-outdoor" id="outdoor" value="outdoor" checked> Outdoor
+            </label>
+            <label for="indoor">
+                <input type="checkbox" name="indoor-outdoor" id="indoor" value="indoor" checked> Indoor 
+            </label>
+            <label for="loving">
+                <input type="radio" name="personalithy" id="loving" value="loving" checked> Loving
+            </label>
+            <label for="energetic">
+                <input type="radio" name="personalithy" id="energetic" value="energetic" checked> Energetic
+            </label>
+            <br>
+            <input type="text" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    
+</body>
+</html>
